@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultsContainer = document.getElementById('results-container');
     const restartButton = document.getElementById('restart-button');
 
-    let questions =;
+    let questions ='';
     let currentQuestionIndex = 0;
-    let selectedQuestions =;
-    let userAnswers =;
+    let selectedQuestions ='';
+    let userAnswers ='';
     let score = 0;
 
     // Function to load questions from JSON
@@ -36,12 +36,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to start the quiz
     function startQuiz(numQuestions, selectedCategories) {
         currentQuestionIndex = 0;
-        selectedQuestions =;
-        userAnswers =;
+        selectedQuestions ='';
+        userAnswers ='';
         score = 0;
         resultsContainer.innerHTML = ''; // Clear previous results
 
-        let filteredQuestions =;
+        let filteredQuestions ='';
         if (selectedCategories.includes('all')) {
             filteredQuestions = [...questions]; // Use all questions
         } else {
@@ -205,14 +205,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Save quiz score
     function saveQuizScore(score, total) {
-        let scores = JSON.parse(localStorage.getItem(quizScoresKey)) ||;
+        let scores = JSON.parse(localStorage.getItem(quizScoresKey)) ||'';
         scores.push({ score: score, total: total, date: new Date().toLocaleDateString() });
         localStorage.setItem(quizScoresKey, JSON.stringify(scores));
     }
 
     // Load quiz scores (for display on a tracking page later)
     function loadQuizScores() {
-        return JSON.parse(localStorage.getItem(quizScoresKey)) ||;
+        return JSON.parse(localStorage.getItem(quizScoresKey)) ||'';
     }
 
     // Call saveLastVisited on page unload
