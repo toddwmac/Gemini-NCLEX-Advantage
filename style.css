@@ -69,6 +69,12 @@ button:hover {
     animation: fadeIn 0.5s ease-in-out;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
 header, footer {
     /* Add specific styles for header and footer here if needed */
 }
