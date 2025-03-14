@@ -1,6 +1,12 @@
 /* Any custom styles beyond Tailwind CSS can be added here */
 .answer-button {
     transition: background-color 0.3s ease;
+    background-color: #D3D3D3; /* Light grey default */
+}
+
+.answer-button.selected {
+    background-color: #007bff; /* Blue for selected answer */
+    color: white;
 }
 
 .answer-button:disabled {

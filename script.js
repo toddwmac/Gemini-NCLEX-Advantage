@@ -102,11 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
                 button.classList.add('bg-green-300', 'hover:bg-green-400', 'text-white'); // Highlight correct answer in green
             } else if (button.textContent === selectedOption) {
-                button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
-                button.classList.add('bg-red-300', 'hover:bg-red-400', 'text-white'); // Highlight selected incorrect answer in red
+                button.classList.add('selected'); // Add blue selected class
             } else {
-                button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
-                button.classList.add('bg-gray-100', 'text-gray-500'); // Dim unselected options
+                button.classList.add('opacity-50'); // Dim unselected options
             }
         });
 
