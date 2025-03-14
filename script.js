@@ -60,7 +60,35 @@ document.addEventListener('DOMContentLoaded', () => {
         showQuestion();
     }
 
-    // Function to display the current question with animation
+    // Function to handle answer selection
+    function selectAnswer(selectedOption, correctAnswer) {
+        const answerButtons = document.querySelectorAll('#answer-options .answer-button');
+        
+        // Clear previous selection
+        answerButtons.forEach(button => {
+            button.classList.remove(
+                'bg-blue-300', 'hover:bg-blue-400',
+                'bg-red-300', 'hover:bg-red-400',
+                'text-white', 'selected', 'opacity-50',
+                'border-blue-500', 'border-4', 'shadow-lg'
+            );
+        });
+
+        // Update user's answer for current question
+        userAnswers[currentQuestionIndex] = selectedOption;
+
+        // Style the selected answer
+        answerButtons.forEach(button => {
+            if (button.textContent === selectedOption) {
+                button.classList.add('border-blue-500', 'border-4', 'shadow-lg');
+            }
+        });
+
+        // Enable Next button
+        nextButton.classList.remove('hidden');
+    }
+
+    // Update showQuestion to clear previous selection
     function showQuestion() {
         if (currentQuestionIndex < selectedQuestions.length) {
             const currentQuestion = selectedQuestions[currentQuestionIndex];
@@ -83,6 +111,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.classList.add('answer-button', 'bg-gray-200', 'hover:bg-gray-300', 'text-gray-800', 'font-bold', 'py-2', 'px-4', 'rounded', 'focus:outline-none', 'focus:shadow-outline', 'w-full', 'text-left');
                 button.textContent = option;
                 button.addEventListener('click', () => selectAnswer(option, currentQuestion.correctAnswer));
+                
+                // Show existing selection if present
+                if (userAnswers[currentQuestionIndex] === option) {
+                    button.classList.add('border-blue-500', 'border-4', 'shadow-lg');
+                }
+                
                 answerOptionsContainer.appendChild(button);
             });
 
@@ -91,38 +125,6 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             endQuiz();
         }
-    }
-
-    // Function to handle answer selection
-    function selectAnswer(selectedOption, correctAnswer) {
-        const answerButtons = document.querySelectorAll('#answer-options .answer-button');
-        answerButtons.forEach(button => {
-            button.disabled = true; // Disable further clicks after an answer is selected
-            // Reset all button styles to default
-            button.classList.remove(
-                'bg-blue-300', 'hover:bg-blue-400', 
-                'bg-green-300', 'hover:bg-green-400',
-                'bg-red-300', 'hover:bg-red-400',
-                'text-white', 'selected', 'opacity-50'
-            );
-            
-            // Highlight correct answer in blue
-            if (button.textContent === correctAnswer) {
-                button.classList.add('bg-blue-300', 'hover:bg-blue-400', 'text-white');
-            }
-            // Highlight selected incorrect answer in red
-            else if (button.textContent === selectedOption) {
-                button.classList.add('bg-red-300', 'hover:bg-red-400', 'text-white');
-            }
-        });
-
-        userAnswers.push(selectedOption);
-        if (selectedOption === correctAnswer) {
-            score++;
-        }
-
-        // Ensure the "Next" button is visible
-        nextButton.classList.remove('hidden');
     }
 
     // Function to move to the next question
