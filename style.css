@@ -71,10 +71,14 @@ button:hover {
 
 /* Remove header-specific styles */
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 50;
+}
+
+body {
+    padding-top: 60px; /* Adjust as needed based on header height */
 }
 
 /* Ensure quiz answers are not all green */
