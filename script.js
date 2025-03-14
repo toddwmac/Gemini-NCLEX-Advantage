@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultsContainer = document.getElementById('results-container');
     const restartButton = document.getElementById('restart-button');
 
-    let questions ='';
+    let questions = [];
     let currentQuestionIndex = 0;
-    let selectedQuestions ='';
-    let userAnswers ='';
+    let selectedQuestions = [];
+    let userAnswers = [];
     let score = 0;
 
     // Function to load questions from JSON
