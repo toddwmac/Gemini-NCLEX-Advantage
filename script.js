@@ -60,13 +60,20 @@ document.addEventListener('DOMContentLoaded', () => {
         showQuestion();
     }
 
-    // Function to display the current question
+    // Function to display the current question with animation
     function showQuestion() {
         if (currentQuestionIndex < selectedQuestions.length) {
             const currentQuestion = selectedQuestions[currentQuestionIndex];
             currentQuestionDisplay.textContent = currentQuestionIndex + 1;
             questionTextDisplay.textContent = currentQuestion.question;
             answerOptionsContainer.innerHTML = ''; // Clear previous options
+
+            // Add fade-in animation to question text
+            questionTextDisplay.style.opacity = 0;
+            setTimeout(() => {
+                questionTextDisplay.style.opacity = 1;
+                questionTextDisplay.style.transition = 'opacity 0.5s ease-in-out';
+            }, 100);
 
             // Shuffle answer options
             const shuffledOptions = [...currentQuestion.options].sort(() => Math.random() - 0.5);
@@ -94,7 +101,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (button.textContent === correctAnswer) {
                 button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
                 button.classList.add('bg-green-300', 'hover:bg-green-400', 'text-white');
-            } else if (button.textContent === selectedOption && selectedOption !== correctAnswer) {
+            } else if (button.textContent === selectedOption) {
                 button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
                 button.classList.add('bg-red-300', 'hover:bg-red-400', 'text-white');
             }
@@ -115,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showQuestion();
     });
 
-    // Function to end the quiz
+    // Function to end the quiz with confetti animation
     function endQuiz() {
         quizAreaSection.classList.add('hidden');
         quizResultsSection.classList.remove('hidden');
@@ -156,9 +163,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Save quiz score to local storage
         saveQuizScore(score, selectedQuestions.length);
 
+        // Trigger confetti animation
         confetti({
-            particleCount: 100,
-            spread: 70,
+            particleCount: 150,
+            spread: 80,
             origin: { y: 0.6 }
         });
     }

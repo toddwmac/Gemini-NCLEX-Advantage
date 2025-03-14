@@ -7,11 +7,26 @@
     cursor: not-allowed;
 }
 
+/* Add smooth hover animations for navigation links */
+nav ul li a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav ul li a:hover {
+    transform: scale(1.1);
+    color: #ffeb3b; /* Highlight color */
+}
+
+/* Add subtle animation to progress bar */
 .progress-bar {
     height: 8px;
     background: linear-gradient(90deg, #007bff, #00c6ff);
     color: white;
-    transition: width 0.3s ease;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.progress-bar:hover {
+    background-color: #0056b3;
 }
 
 .card {
@@ -26,6 +41,7 @@
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* Add bounce effect to buttons on hover */
 button {
     color: white;
     background: linear-gradient(90deg, #4caf50, #81c784);
@@ -33,8 +49,24 @@ button {
 }
 
 button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1) translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Add fade-in animation for quiz sections */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#quiz-area, #quiz-results {
+    animation: fadeIn 0.5s ease-in-out;
 }
 
 header, footer {
