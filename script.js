@@ -36,8 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Function to start the quiz
     function startQuiz(numQuestions, selectedCategories) {
         currentQuestionIndex = 0;
-        selectedQuestions ='';
-        userAnswers ='';
+        // Changed empty string resets to empty arrays
+        selectedQuestions = [];
+        userAnswers = [];
         score = 0;
         resultsContainer.innerHTML = ''; // Clear previous results
 
