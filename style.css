@@ -50,7 +50,7 @@ nav ul li a:hover {
 /* Add bounce effect to buttons on hover */
 button {
     color: white;
-    background: linear-gradient(90deg, #4caf50, #81c784);
+    background: linear-gradient(90deg, #007bff, #00c6ff);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
