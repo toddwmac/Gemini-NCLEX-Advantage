@@ -69,6 +69,23 @@ button:hover {
     animation: fadeIn 0.5s ease-in-out;
 }
 
+/* Header link styles */
+.header-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #ffeb3b;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-link:hover {
+    color: #fff;
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
 /* Remove header-specific styles */
 header {
     position: sticky;
