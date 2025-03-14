@@ -77,7 +77,7 @@ header {
 }
 
 body {
-    /* padding-top: 6rem; */ /* Remove padding to minimize the white bar at the top */
+    padding-top: 8rem; /* Add padding to account for fixed header */
 }
 
 /* Ensure quiz answers are not all green */
