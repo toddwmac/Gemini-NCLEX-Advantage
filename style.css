@@ -5,7 +5,7 @@
 }
 
 .answer-button.selected {
-    background-color: #007bff; /* Blue for selected answer */
+    background-color: #22c55e; /* Green for selected answer */
     color: white;
 }
 
@@ -26,7 +26,7 @@ nav ul li a:hover {
 /* Add subtle animation to progress bar */
 .progress-bar {
     height: 8px;
-    background: linear-gradient(90deg, #007bff, #00c6ff);
+    background: linear-gradient(90deg, #22c55e, #86efac);
     color: white;
     transition: width 0.3s ease, background-color 0.3s ease;
 }
@@ -50,7 +50,7 @@ nav ul li a:hover {
 /* Add bounce effect to buttons on hover */
 button {
     color: white;
-    background: linear-gradient(90deg, #007bff, #00c6ff);
+    background: linear-gradient(90deg, #22c55e, #86efac);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -80,13 +80,13 @@ button:hover {
     display: inline-block;
     font-weight: 700;
     font-size: 1.1rem;
-    color: #007bff; /* Blue color */
+    color: #22c55e; /* Green color */
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .header-link:hover {
-    color: #0056b3; /* Darker blue on hover */
+    color: #16a34a; /* Darker green on hover */
     text-decoration: underline;
 }
 
