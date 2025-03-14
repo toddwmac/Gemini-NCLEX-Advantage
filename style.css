@@ -70,9 +70,20 @@ button:hover {
 }
 
 header {
-    position: sticky;
+    position: fixed;
     top: 0;
+    width: 100%;
     z-index: 50;
+}
+
+body {
+    padding-top: 6rem; /* Adjust padding to account for the fixed header height */
+}
+
+/* Ensure quiz answers are not all green */
+.quiz-answer {
+    color: inherit; /* Use default text color */
+    background-color: inherit; /* Use default background */
 }
 
 header, footer {
