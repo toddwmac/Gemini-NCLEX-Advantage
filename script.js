@@ -77,6 +77,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 button.addEventListener('click', () => selectAnswer(option, currentQuestion.correctAnswer));
                 answerOptionsContainer.appendChild(button);
             });
+
+            // Hide the "Next" button until an answer is selected
             nextButton.classList.add('hidden');
         } else {
             endQuiz();
@@ -101,6 +103,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (selectedOption === correctAnswer) {
             score++;
         }
+
+        // Ensure the "Next" button is visible
         nextButton.classList.remove('hidden');
     }
 
