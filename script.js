@@ -66,11 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Clear previous selection
         answerButtons.forEach(button => {
-            button.classList.remove(
+                button.classList.remove(
                 'bg-blue-300', 'hover:bg-blue-400',
                 'bg-red-300', 'hover:bg-red-400',
                 'text-white', 'selected', 'opacity-50',
-                'border-blue-500', 'border-4', 'shadow-lg'
+                'border-blue-500', 'border-4', 'shadow-lg',
+                'bg-green-100', 'hover:bg-green-200',
+                'border-green-500'
             );
         });
 
@@ -80,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Style the selected answer
         answerButtons.forEach(button => {
             if (button.textContent === selectedOption) {
-                button.classList.add('border-blue-500', 'border-4', 'shadow-lg');
+                button.classList.add('border-green-500', 'border-4', 'shadow-lg', 'bg-green-100', 'hover:bg-green-200');
             }
         });
 
@@ -114,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Show existing selection if present
                 if (userAnswers[currentQuestionIndex] === option) {
-                    button.classList.add('border-blue-500', 'border-4', 'shadow-lg');
+                    button.classList.add('border-green-500', 'border-4', 'shadow-lg', 'bg-green-100', 'hover:bg-green-200');
                 }
                 
                 answerOptionsContainer.appendChild(button);
