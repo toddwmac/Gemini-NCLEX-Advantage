@@ -6,3 +6,37 @@
 .answer-button:disabled {
     cursor: not-allowed;
 }
+
+.progress-bar {
+    height: 8px;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: white;
+    transition: width 0.3s ease;
+}
+
+.card {
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    color: white;
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header, footer {
+    /* Add specific styles for header and footer here if needed */
+}

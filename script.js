@@ -155,6 +155,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Save quiz score to local storage
         saveQuizScore(score, selectedQuestions.length);
+
+        confetti({
+            particleCount: 100,
+            spread: 70,
+            origin: { y: 0.6 }
+        });
     }
 
     // Event listener for quiz form submission

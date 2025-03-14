@@ -67,7 +67,7 @@
             }
 
             // Load quiz scores
-            const quizScores = JSON.parse(localStorage.getItem(quizScoresKey)) ||;
+            const quizScores = JSON.parse(localStorage.getItem(quizScoresKey)) || [];
             if (quizScores.length > 0) {
                 quizScoresList.innerHTML = ''; // Clear loading message
                 quizScores.forEach(scoreData => {
@@ -76,7 +76,7 @@
                     quizScoresList.appendChild(listItem);
                 });
             } else {
-                quizScoresList.textContent = 'No previous quiz scores recorded.';
+                quizScoresList.innerHTML = '<li>No previous quiz scores recorded.</li>';
             }
         });
     </script>
