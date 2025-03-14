@@ -98,13 +98,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const answerButtons = document.querySelectorAll('#answer-options .answer-button');
         answerButtons.forEach(button => {
             button.disabled = true; // Disable further clicks after an answer is selected
+            button.classList.remove('bg-green-300', 'hover:bg-green-400', 'text-white', 'selected', 'opacity-50'); // Reset styles
             if (button.textContent === correctAnswer) {
-                button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
-                button.classList.add('bg-green-300', 'hover:bg-green-400', 'text-white'); // Highlight correct answer in green
+                if (button.textContent === selectedOption) {
+                    button.classList.add('bg-green-300', 'hover:bg-green-400', 'text-white'); // Highlight correct answer in green
+                }
             } else if (button.textContent === selectedOption) {
-                button.classList.add('selected'); // Add blue selected class
-            } else {
-                button.classList.add('opacity-50'); // Dim unselected options
+                button.classList.add('bg-red-300', 'hover:bg-red-400', 'text-white'); // Highlight selected incorrect answer in red
             }
         });
 
