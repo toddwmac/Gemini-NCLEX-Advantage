@@ -1,0 +1,377 @@
+[
+    {
+      "id": 1,
+      "category": "Management of Care",
+      "question": "A nurse is delegating tasks to a nursing assistant (NA). Which of the following tasks is appropriate to delegate to the NA?",
+      "options": [
+        "Assessing a client's surgical wound.",
+        "Developing a teaching plan for a client with diabetes.",
+        "Assisting a stable client with ambulation.",
+        "Administering oral medications to a client."
+      ],
+      "correctAnswer": "Assisting a stable client with ambulation.",
+      "explanation": "Assisting with ambulation for a stable client is within the scope of practice for a nursing assistant. Assessment, teaching plan development, and medication administration typically require the expertise of a licensed nurse.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Management of Care"
+    },
+    {
+      "id": 2,
+      "category": "Safety and Infection Control",
+      "question": "A nurse is preparing to administer an intramuscular injection. Which of the following actions demonstrates proper aseptic technique?",
+      "options": [
+        "Recapping the used needle before disposal.",
+        "Using an alcohol swab to cleanse the injection site after administering the medication.",
+        "Selecting a clean syringe and needle for each injection.",
+        "Wearing sterile gloves for all intramuscular injections."
+      ],
+      "correctAnswer": "Selecting a clean syringe and needle for each injection.",
+      "explanation": "Using a clean, sterile syringe and needle for each injection is crucial to prevent infection. Recapping needles is dangerous, cleansing after injection doesn't prevent contamination of the medication, and sterile gloves are not always required for intramuscular injections unless there's a risk of contact with sterile body sites.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Safety and Infection Control"
+    },
+    {
+      "id": 3,
+      "category": "Management of Care",
+      "question": "A client with a terminal illness has a 'Do Not Resuscitate' (DNR) order in their chart. The client's family expresses distress and wants 'everything done' if the client's condition worsens. What is the nurse's priority action?",
+      "options": [
+        "Immediately call the physician to clarify the DNR order.",
+        "Reassure the family that the client is receiving excellent care.",
+        "Educate the family about the purpose and implications of the DNR order.",
+        "Document the family's concerns in the client's chart."
+      ],
+      "correctAnswer": "Educate the family about the purpose and implications of the DNR order.",
+      "explanation": "The nurse's priority is to provide education and support to the family, helping them understand the client's wishes as expressed in the DNR order. While informing the physician and documenting are important, addressing the family's distress and providing clarity is the immediate priority.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Ethical Practice"
+    },
+    {
+      "id": 4,
+      "category": "Safety and Infection Control",
+      "question": "Which of the following is the most effective way to prevent the spread of infection?",
+      "options": [
+        "Wearing gloves at all times.",
+        "Using hand sanitizer frequently.",
+        "Washing hands with soap and water.",
+        "Wearing a mask when in close contact with others."
+      ],
+      "correctAnswer": "Washing hands with soap and water.",
+      "explanation": "While all options contribute to infection control, handwashing with soap and water for at least 20 seconds is considered the single most effective method for preventing the spread of microorganisms.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Safety and Infection Control"
+    },
+    {
+      "id": 5,
+      "category": "Health Promotion",
+      "question": "A nurse is teaching a group of older adults about fall prevention. Which of the following recommendations should the nurse include?",
+      "options": [
+        "Using throw rugs to prevent slipping.",
+        "Wearing loose-fitting clothing.",
+        "Ensuring adequate lighting in the home.",
+        "Walking barefoot indoors."
+      ],
+      "correctAnswer": "Ensuring adequate lighting in the home.",
+      "explanation": "Adequate lighting helps older adults see potential hazards and navigate their home safely, reducing the risk of falls. Throw rugs, loose clothing, and walking barefoot can actually increase the risk of falls.",
+      "nclexCategory": "Health Promotion and Maintenance",
+      "nclexSubcategory": "Prevention of Illness"
+    },
+    {
+      "id": 6,
+      "category": "Psychosocial Integrity",
+      "question": "A client who recently lost their spouse states, 'I feel so lost and alone.' Which of the following responses by the nurse demonstrates empathy?",
+      "options": [
+        "\"I understand how you feel. My pet died last year, and it was very sad.\"",
+        "\"You need to stay strong for your family.\"",
+        "\"It's okay to feel sad. Losing a loved one is very difficult.\"",
+        "\"Have you tried joining any support groups?\""
+      ],
+      "correctAnswer": "\"It's okay to feel sad. Losing a loved one is very difficult.\"",
+      "explanation": "This response validates the client's feelings and acknowledges the difficulty of their loss without comparing it to the nurse's own experience or offering unsolicited advice. It shows empathy and allows the client to feel understood.",
+      "nclexCategory": "Psychosocial Integrity",
+      "nclexSubcategory": "Grief and Loss"
+    },
+    {
+      "id": 7,
+      "category": "Management of Care",
+      "question": "A nurse is caring for a client who is scheduled for surgery. Which of the following actions is the nurse's responsibility regarding informed consent?",
+      "options": [
+        "Explaining the surgical procedure in detail.",
+        "Obtaining the client's signature on the consent form.",
+        "Ensuring the client understands the information provided by the surgeon.",
+        "Witnessing the client's signature after the surgeon has provided the necessary information."
+      ],
+      "correctAnswer": "Witnessing the client's signature after the surgeon has provided the necessary information.",
+      "explanation": "The surgeon is responsible for explaining the procedure, risks, and benefits. The nurse's role is to witness the client's signature, confirming that the client signed voluntarily and appears competent to do so.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Management of Care"
+    },
+    {
+      "id": 8,
+      "category": "Safety and Infection Control",
+      "question": "A nurse is caring for a client with Clostridium difficile (C. diff). Which of the following precautions should the nurse implement?",
+      "options": [
+        "Airborne precautions.",
+        "Droplet precautions.",
+        "Contact precautions.",
+        "Standard precautions only."
+      ],
+      "correctAnswer": "Contact precautions.",
+      "explanation": "C. diff is spread through contact with contaminated surfaces and spores. Contact precautions, including the use of gown and gloves, are necessary to prevent its transmission.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Safety and Infection Control"
+    },
+    {
+      "id": 9,
+      "category": "Health Promotion",
+      "question": "A nurse is teaching a client about the benefits of exercise. Which of the following is a primary benefit of regular physical activity?",
+      "options": [
+        "Increased risk of heart disease.",
+        "Decreased bone density.",
+        "Improved cardiovascular health.",
+        "Increased susceptibility to infections."
+      ],
+      "correctAnswer": "Improved cardiovascular health.",
+      "explanation": "Regular physical activity strengthens the heart and blood vessels, leading to improved cardiovascular health and a reduced risk of heart disease and stroke.",
+      "nclexCategory": "Health Promotion and Maintenance",
+      "nclexSubcategory": "Lifestyle Choices"
+    },
+    {
+      "id": 10,
+      "category": "Psychosocial Integrity",
+      "question": "A client with a history of anxiety is scheduled for a diagnostic procedure. Which of the following nursing interventions would be most helpful in reducing the client's anxiety?",
+      "options": [
+        "Providing detailed technical information about the procedure.",
+        "Leaving the client alone to rest before the procedure.",
+        "Explaining the procedure and expected sensations in simple terms.",
+        "Telling the client not to worry because the procedure is routine."
+      ],
+      "correctAnswer": "Explaining the procedure and expected sensations in simple terms.",
+      "explanation": "Providing clear and simple information about what to expect during the procedure can help reduce anxiety by increasing the client's sense of control and predictability. Avoiding technical jargon is important.",
+      "nclexCategory": "Psychosocial Integrity",
+      "nclexSubcategory": "Coping Mechanisms"
+    },
+    {
+      "id": 11,
+      "category": "Management of Care",
+      "question": "A nurse is prioritizing care for several clients. Which client should the nurse see first?",
+      "options": [
+        "A client with a chronic cough requesting pain medication.",
+        "A client with diabetes reporting a blood glucose of 250 mg/dL.",
+        "A client with chest pain and shortness of breath.",
+        "A client who needs assistance with their evening bath."
+      ],
+      "correctAnswer": "A client with chest pain and shortness of breath.",
+      "explanation": "Chest pain and shortness of breath indicate a potential life-threatening cardiovascular or respiratory issue and require immediate attention based on the ABCs (Airway, Breathing, Circulation).",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Establishing Priorities"
+    },
+    {
+      "id": 12,
+      "category": "Safety and Infection Control",
+      "question": "What is the correct order for donning personal protective equipment (PPE)?",
+      "options": [
+        "Gloves, gown, mask, eye protection.",
+        "Gown, mask, eye protection, gloves.",
+        "Mask, eye protection, gown, gloves.",
+        "Eye protection, mask, gown, gloves."
+      ],
+      "correctAnswer": "Gown, mask, eye protection, gloves.",
+      "explanation": "The correct order for donning PPE is gown first, followed by the mask, then eye protection (face shield or goggles), and finally gloves. This order minimizes the risk of contamination.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Safety and Infection Control"
+    },
+    {
+      "id": 13,
+      "category": "Health Promotion",
+      "question": "A nurse is teaching a client about healthy eating habits. Which of the following dietary recommendations should the nurse emphasize?",
+      "options": [
+        "Consuming a diet high in saturated fats.",
+        "Limiting intake of fruits and vegetables.",
+        "Choosing whole grains over refined grains.",
+        "Drinking sugary beverages regularly."
+      ],
+      "correctAnswer": "Choosing whole grains over refined grains.",
+      "explanation": "Choosing whole grains provides more fiber and nutrients compared to refined grains, which is a key component of a healthy diet.",
+      "nclexCategory": "Health Promotion and Maintenance",
+      "nclexSubcategory": "Lifestyle Choices"
+    },
+    {
+      "id": 14,
+      "category": "Psychosocial Integrity",
+      "question": "A nurse observes a client pacing and wringing their hands. The client reports feeling overwhelmed and unable to concentrate. Which of the following is an appropriate initial nursing intervention?",
+      "options": [
+        "Encouraging the client to engage in a group activity.",
+        "Administering an anti-anxiety medication immediately.",
+        "Providing a quiet and calm environment and speaking in a soothing tone.",
+        "Challenging the client's anxious thoughts."
+      ],
+      "correctAnswer": "Providing a quiet and calm environment and speaking in a soothing tone.",
+      "explanation": "Creating a calm and quiet environment and using a soothing tone can help reduce the client's anxiety and promote a sense of safety and security. This should be the initial step before other interventions.",
+      "nclexCategory": "Psychosocial Integrity",
+      "nclexSubcategory": "Stress Management"
+    },
+    {
+      "id": 15,
+      "category": "Management of Care",
+      "question": "A nurse is participating in a multidisciplinary team meeting for a client with complex needs. What is the primary purpose of this meeting?",
+      "options": [
+        "To allow each discipline to independently plan their care for the client.",
+        "To assign blame for any complications the client may have experienced.",
+        "To develop a comprehensive and coordinated plan of care for the client.",
+        "To discuss the financial aspects of the client's treatment."
+      ],
+      "correctAnswer": "To develop a comprehensive and coordinated plan of care for the client.",
+      "explanation": "The primary purpose of a multidisciplinary team meeting is to bring together different healthcare professionals to share their expertise and develop a holistic and coordinated plan of care that addresses all of the client's needs.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Collaboration with Interdisciplinary Team"
+    },
+    {
+      "id": 16,
+      "category": "Safety and Infection Control",
+      "question": "A nurse is preparing to dispose of a used needle and syringe. Which of the following actions is correct?",
+      "options": [
+        "Recap the needle and throw it in the regular trash.",
+        "Break the needle off the syringe before disposal.",
+        "Immediately discard the uncapped needle and syringe in a sharps container.",
+        "Rinse the syringe with water before discarding it."
+      ],
+      "correctAnswer": "Immediately discard the uncapped needle and syringe in a sharps container.",
+      "explanation": "Used needles and syringes should never be recapped, bent, or broken. They should be immediately discarded, uncapped, into a designated sharps container to prevent needlestick injuries.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Safety and Infection Control"
+    },
+    {
+      "id": 17,
+      "category": "Health Promotion",
+      "question": "A nurse is educating a client with hypertension about lifestyle modifications. Which of the following recommendations is appropriate?",
+      "options": [
+        "Increase sodium intake.",
+        "Engage in sedentary activities.",
+        "Maintain a healthy weight.",
+        "Consume excessive amounts of alcohol."
+      ],
+      "correctAnswer": "Maintain a healthy weight.",
+      "explanation": "Maintaining a healthy weight is crucial for managing hypertension as excess weight can increase blood pressure. The other options are detrimental to managing hypertension.",
+      "nclexCategory": "Health Promotion and Maintenance",
+      "nclexSubcategory": "Lifestyle Choices"
+    },
+    {
+      "id": 18,
+      "category": "Psychosocial Integrity",
+      "question": "A client is expressing feelings of hopelessness and worthlessness. Which of the following nursing interventions is a priority?",
+      "options": [
+        "Encouraging the client to focus on positive aspects of their life.",
+        "Leaving the client alone to reflect on their feelings.",
+        "Assessing the client for suicidal ideation.",
+        "Reassuring the client that things will get better."
+      ],
+      "correctAnswer": "Assessing the client for suicidal ideation.",
+      "explanation": "Feelings of hopelessness and worthlessness are potential indicators of depression and increased risk for suicide. Assessing for suicidal ideation is the priority to ensure the client's safety.",
+      "nclexCategory": "Psychosocial Integrity",
+      "nclexSubcategory": "Mental Health Concepts"
+    },
+    {
+      "id": 19,
+      "category": "Management of Care",
+      "question": "A nurse is preparing a client for a lumbar puncture. Which of the following positions is typically used for this procedure?",
+      "options": [
+        "Supine with legs extended.",
+        "Prone with a pillow under the abdomen.",
+        "Side-lying with knees drawn to the chest.",
+        "Semi-Fowler's position."
+      ],
+      "correctAnswer": "Side-lying with knees drawn to the chest.",
+      "explanation": "The side-lying position with knees drawn to the chest helps to flex the spine and widen the spaces between the vertebrae, making it easier to insert the needle for a lumbar puncture.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Management of Care"
+    },
+    {
+      "id": 20,
+      "category": "Safety and Infection Control",
+      "question": "A nurse is caring for a client with an airborne infection. Which of the following nursing interventions is appropriate?",
+      "options": [
+        "Placing the client in a room with negative air pressure.",
+        "Requiring all visitors to wear surgical masks.",
+        "Placing the client in a room with a roommate who has the same infection.",
+        "Using standard precautions only."
+      ],
+      "correctAnswer": "Placing the client in a room with negative air pressure.",
+      "explanation": "Airborne precautions require placing the client in a private room with negative air pressure to prevent the spread of airborne pathogens. Healthcare providers should wear an N95 respirator.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Safety and Infection Control"
+    },
+    {
+      "id": 21,
+      "category": "Health Promotion",
+      "question": "A nurse is teaching a client how to use a metered-dose inhaler (MDI). Which of the following instructions should the nurse include?",
+      "options": [
+        "Exhale fully, then inhale quickly while pressing the inhaler.",
+        "Inhale deeply and slowly while pressing the inhaler.",
+        "Hold the breath for 1-2 seconds after inhaling.",
+        "Use a spacer only if prescribed by the doctor."
+      ],
+      "correctAnswer": "Inhale deeply and slowly while pressing the inhaler.",
+      "explanation": "The correct technique for using an MDI involves exhaling fully, then inhaling slowly and deeply while pressing down on the inhaler to release the medication. Holding the breath for about 10 seconds (not 1-2) allows for better absorption. Spacers are often recommended to improve medication delivery.",
+      "nclexCategory": "Health Promotion and Maintenance",
+      "nclexSubcategory": "Prevention of Illness"
+    },
+    {
+      "id": 22,
+      "category": "Psychosocial Integrity",
+      "question": "A nurse is caring for a client who is experiencing a panic attack. Which of the following nursing interventions would be most appropriate?",
+      "options": [
+        "Encourage the client to discuss the triggers of the panic attack immediately.",
+        "Leave the client alone in a quiet room to calm down.",
+        "Stay with the client and speak in short, simple sentences.",
+        "Administer a sedative medication without assessing the client's current state."
+      ],
+      "correctAnswer": "Stay with the client and speak in short, simple sentences.",
+      "explanation": "During a panic attack, the client may feel overwhelmed and frightened. Staying with the client and speaking in a calm, reassuring voice using short, simple sentences can provide comfort and help them regain control.",
+      "nclexCategory": "Psychosocial Integrity",
+      "nclexSubcategory": "Crisis Intervention"
+    },
+    {
+      "id": 23,
+      "category": "Management of Care",
+      "question": "A nurse is reviewing a client's medication list. Which of the following abbreviations indicates that the medication should be administered twice daily?",
+      "options": [
+        "q.d.",
+        "t.i.d.",
+        "b.i.d.",
+        "q.i.d."
+      ],
+      "correctAnswer": "b.i.d.",
+      "explanation": "The abbreviation 'b.i.d.' stands for 'bis in die,' which means twice a day. 'q.d.' means once a day, 't.i.d.' means three times a day, and 'q.i.d.' means four times a day.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Management of Care"
+    },
+    {
+      "id": 24,
+      "category": "Safety and Infection Control",
+      "question": "A nurse is preparing to administer medication via a nasogastric (NG) tube. Which of the following actions should the nurse take first?",
+      "options": [
+        "Flush the NG tube with sterile water.",
+        "Ensure the client is in a supine position.",
+        "Verify the placement of the NG tube.",
+        "Mix all the medications together in one syringe."
+      ],
+      "correctAnswer": "Verify the placement of the NG tube.",
+      "explanation": "The first and most crucial step before administering anything via an NG tube is to verify its correct placement to ensure it is in the stomach and not in the respiratory tract.",
+      "nclexCategory": "Safe and Effective Care Environment",
+      "nclexSubcategory": "Safety and Infection Control"
+    },
+    {
+      "id": 25,
+      "category": "Health Promotion",
+      "question": "A nurse is teaching a client about the importance of sleep. Which of the following is a key benefit of adequate sleep?",
+      "options": [
+        "Decreased immune function.",
+        "Impaired cognitive function.",
+        "Increased stress levels.",
+        "Improved mood and concentration."
+      ],
+      "correctAnswer": "Improved mood and concentration.",
+      "explanation": "Adequate sleep is essential for physical and mental health. It improves mood, enhances concentration, and supports overall cognitive function.",
+      "nclexCategory": "Health Promotion and Maintenance",
+      "nclexSubcategory": "Lifestyle Choices"
+    }
+  ]

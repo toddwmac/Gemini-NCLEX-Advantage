@@ -1,0 +1,8 @@
+/* Any custom styles beyond Tailwind CSS can be added here */
+.answer-button {
+    transition: background-color 0.3s ease;
+}
+
+.answer-button:disabled {
+    cursor: not-allowed;
+}
