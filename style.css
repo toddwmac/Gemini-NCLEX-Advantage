@@ -69,15 +69,12 @@ button:hover {
     animation: fadeIn 0.5s ease-in-out;
 }
 
+/* Remove header-specific styles */
 header {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 50;
-}
-
-body {
-    padding-top: 8rem; /* Add padding to account for fixed header */
 }
 
 /* Ensure quiz answers are not all green */
