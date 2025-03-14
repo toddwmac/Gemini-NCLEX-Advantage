@@ -100,10 +100,13 @@ document.addEventListener('DOMContentLoaded', () => {
             button.disabled = true; // Disable further clicks after an answer is selected
             if (button.textContent === correctAnswer) {
                 button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
-                button.classList.add('bg-green-300', 'hover:bg-green-400', 'text-white');
+                button.classList.add('bg-green-300', 'hover:bg-green-400', 'text-white'); // Highlight correct answer in green
             } else if (button.textContent === selectedOption) {
                 button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
-                button.classList.add('bg-red-300', 'hover:bg-red-400', 'text-white');
+                button.classList.add('bg-red-300', 'hover:bg-red-400', 'text-white'); // Highlight selected incorrect answer in red
+            } else {
+                button.classList.remove('bg-gray-200', 'hover:bg-gray-300');
+                button.classList.add('bg-gray-100', 'text-gray-500'); // Dim unselected options
             }
         });
 
